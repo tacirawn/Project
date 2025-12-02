@@ -25,5 +25,5 @@ such as src="assets/image-name.jpg".
 
 Challenges:
 One of the main challenges I faced was distinguishing between similar semantic HTML tags. Specifically, deciding when to use 
-<article> versus <section> required some research to ensure I was following best practices. Additionally, implementing tags like 
-<details> for the first time was a new experience, but I learned how they contribute to a better user experience.
+article versus section required some research to ensure I was following best practices. Additionally, implementing tags like 
+details for the first time was a new experience, but I learned how they contribute to a better user experience.
