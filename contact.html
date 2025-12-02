@@ -21,7 +21,7 @@
             z-index: 1000;
         }
         main {
-            padding-top: 100px;
+            padding-top: 95px;
         }
     </style>
 </head>
@@ -37,37 +37,38 @@
         </nav>
         <h1>Contact</h1>
     </header>
+    <main>
+        <section>
+            Ready to leave the atmosphere? Our flight coordinators are standing by to help you plan your mission. Due to extremely high demand, spots for the 2025/2026 launch window are filling up fast. Please fill out the form below with your details and preferred destination. A member of our team will contact you within 24 hours to schedule your initial medical consultation and fit check.
+        </section>
+        <br />
 
-    <section>
-        Ready to leave the atmosphere? Our flight coordinators are standing by to help you plan your mission. Due to extremely high demand, spots for the 2025/2026 launch window are filling up fast. Please fill out the form below with your details and preferred destination. A member of our team will contact you within 24 hours to schedule your initial medical consultation and fit check.
-    </section>
-    <br />
+        <form>
+            <fieldset>
+                <legend>Flight Reservation Form</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" />
 
-    <form>
-        <fieldset>
-            <legend>Flight Reservation Form</legend>
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" />
+                <label for="email">E-Mail Address:</label>
+                <input type="email" id="email" name="email" />
 
-            <label for="email">E-Mail Address:</label>
-            <input type="email" id="email" name="email" />
+                <label for="date">Preferred Launch Date:</label>
+                <input type="date" id="date" name="date" />
 
-            <label for="date">Preferred Launch Date:</label>
-            <input type="date" id="date" name="date" />
+                <label for="select-package">Select Your Package:</label>
+                <select id="package" name="package">
+                    <option>Lunar Orbit</option>
+                    <option>Mars Colony</option>
+                    <option>ISS Experience</option>
+                    <option>Orbital View</option>
+                    <option>Saturn Rings</option>
+                </select>
 
-            <label for="select-package">Select Your Package:</label>
-            <select id="package" name="package">
-                <option>Lunar Orbit</option>
-                <option>Mars Colony</option>
-                <option>ISS Experience</option>
-                <option>Orbital View</option>
-                <option>Saturn Rings</option>
-            </select>
+                <textarea id="message" name="message" rows="4" cols="40" placeholder="Please tell us about your motivation or ask a specific question:"></textarea>
 
-            <textarea id="message" name="message" rows="4" cols="40"placeholder="Please tell us about your motivation or ask a specific question:"></textarea>
-
-            <button type="submit">Submit</button>
-        </fieldset>
-    </form>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
